@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salón</title>
+    <title>Lamparas</title>
 
     <style>
         h2 {
@@ -44,9 +43,9 @@
             height: 200px;
         }
 
-        .hogar__lamparas,
-        .hogar__sofas,
-        .hogar__alfombras {
+        .hogar__lampara1,
+        .hogar__lampara2,
+        .hogar__lampara3 {
             position: relative;
             width: 200px;
             margin: 15px;
@@ -60,56 +59,27 @@
 <body>
 
     <section class="hogar">
-        <div class="hogar__lamparas">
+        <div class="hogar__lampara1">
             <a href="/salon/lamparas.html">
-                <h2>Lamparas</h2>
+                <h2>Lámpara de techo</h2>
             </a>
             <img src="/imgs/lamparas.jpg" alt="">
         </div>
-        <div class="hogar__sofas">
+        <div class="hogar__lampara2">
             <a href="/salon/sofas.html">
-                <h2>Sofás</h2>
+                <h2>Lámpara de mesa</h2>
             </a>
             <img src="/imgs/sofas.png" alt="">
         </div>
-        <div class="hogar__alfombras">
+        <div class="hogar__lampara3">
             <a href="">
-                <h2>Alfombras</h2>
+                <h2>Lámpara de pie</h2>
             </a>
             <img src="/imgs/alfombras.jpg" alt="">
         </div>
     </section>
 
-    <script>
 
-
-        const elbody = document.querySelector("body");
-
-        const milampara = document.querySelector(".hogar__lamparas");
-
-        milampara.addEventListener("click", () => {
-            alert("¡Vamos a por esas lámparas!")
-        });
-
-
-
-        const misofa = document.querySelector(".hogar__sofas");
-
-        misofa.addEventListener("click", () => {
-            alert("De los mejores sofás a tu elección")
-        });
-
-
-
-        const mialfombra = document.querySelector(".hogar__alfombras");
-
-        mialfombra.addEventListener("click", () => {
-            alert("¡Que no falte una alfombra!")
-        });
-
-    </script>
-
-
+    
 </body>
-
 </html>
