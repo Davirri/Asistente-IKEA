@@ -41,7 +41,7 @@
             width: 100%;
             border-radius: 15px;
             margin-top: 20px;
-            height: 200px;
+            height: 199px;
         }
 
         .patio__exterior,.patio__asientos,.patio__hamacas {
@@ -76,6 +76,34 @@
                 alt="">
         </div>
     </section>
+    <script>
+
+
+        const elbody = document.querySelector("body");
+
+        const miexterior = document.querySelector(".patio__exterior");
+
+        miexterior.addEventListener("click", () => {
+            alert("¡Disfruta de estos excelentes comedores!")
+        });
+
+
+
+        const miasientos = document.querySelector(".patio__asientos");
+
+        miasientos.addEventListener("click", () => {
+            alert("Los mejores asientos para tu jardin")
+        });
+
+
+
+        const mihamacas = document.querySelector(".patio__hamacas");
+
+        mihamacas.addEventListener("click", () => {
+            alert("¡Prioriza tu descanso con estas increibles tumbonas!")
+        });
+
+    </script>
 </body>
 
 </html>
